@@ -1,0 +1,6 @@
+@DiabloBuildTracker.Api_HostAddress = http://localhost:5275
+
+GET {{DiabloBuildTracker.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
