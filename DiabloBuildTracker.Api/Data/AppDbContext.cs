@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using DiabloBuildTracker.Api.Models;
-using System.Runtime.InteropServices;
+using DiabloBuildTracker.Api.Data.Seed;
 
 namespace DiabloBuildTracker.Api.Data
 {
@@ -14,6 +14,8 @@ namespace DiabloBuildTracker.Api.Data
         public DbSet<Item> Items => Set<Item>();
         public DbSet<BuildSkill> BuildSkills => Set<BuildSkill>();
         public DbSet<BuildItem> BuildItems => Set<BuildItem>();
+        public DbSet<SkillCategory> SkillCategories => Set<SkillCategory>();
+        public DbSet<SkillUpgrade> SkillUpgrades => Set<SkillUpgrade>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -46,6 +48,13 @@ namespace DiabloBuildTracker.Api.Data
                 .WithMany(i => i.BuildItems)
                 .HasForeignKey(bi => bi.ItemId)
                 .OnDelete(DeleteBehavior.Restrict);
+            // Seed Data
+            ClassSeed.Seed(modelBuilder);
+            SkillCategorySeed.Seed(modelBuilder);
+
+            BarbarianActiveSkillSeed.Seed(modelBuilder);
+            BarbarianPassiveSkillSeed.Seed(modelBuilder);
+            BarbarianSkillUpgradeSeed.Seed(modelBuilder);
         }
     }
 }
