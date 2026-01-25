@@ -51,10 +51,14 @@ namespace DiabloBuildTracker.Api.Data
             // Seed Data
             ClassSeed.Seed(modelBuilder);
             SkillCategorySeed.Seed(modelBuilder);
-
+            // Barbarian Seeds
             BarbarianActiveSkillSeed.Seed(modelBuilder);
             BarbarianPassiveSkillSeed.Seed(modelBuilder);
             BarbarianSkillUpgradeSeed.Seed(modelBuilder);
+            // Druid Seeds
+            DruidActiveSkillSeed.Seed(modelBuilder);
+            DruidPassiveSkillSeed.Seed(modelBuilder);
+            DruidSkillUpgradeSeed.Seed(modelBuilder);
         }
     }
 }

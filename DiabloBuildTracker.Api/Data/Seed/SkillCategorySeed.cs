@@ -16,7 +16,9 @@ namespace DiabloBuildTracker.Api.Data.Seed
                 new SkillCategory { Id = 6, Name = "Weapon Mastery" },
                 new SkillCategory { Id = 7, Name = "Upgrades" },
                 new SkillCategory { Id = 8, Name = "Ultimate" },
-                new SkillCategory { Id = 9, Name = "Key Passive" }
+                new SkillCategory { Id = 9, Name = "Key Passive" },
+                new SkillCategory { Id = 10, Name = "Companion" },
+                new SkillCategory { Id = 11, Name = "Wrath" }
                 );
         }
     }

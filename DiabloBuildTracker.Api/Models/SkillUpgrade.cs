@@ -10,6 +10,7 @@ namespace DiabloBuildTracker.Api.Models
         public Skill Skill { get; set; } = null!;
         public string Name { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
-        public int RequiredUpgradeId { get; set; }
+        public int? RequiredUpgradeId { get; set; }
+        public SkillUpgrade? RequiredUpgrade { get; set; }
     }
 }
