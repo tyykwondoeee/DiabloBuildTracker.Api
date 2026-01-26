@@ -328,7 +328,7 @@ namespace DiabloBuildTracker.Api.Data.Seed
                 {
                     Id = 327,
                     Name = "Kalan's Edict",
-                    MaxRank = 3,
+                    MaxRank = 1,
                     ClassId = 3,
                     SkillCategoryId = 9, // Key Passive
                     SkillType = SkillType.Passive
@@ -337,7 +337,7 @@ namespace DiabloBuildTracker.Api.Data.Seed
                 {
                     Id = 328,
                     Name = "Ossified Essence",
-                    MaxRank = 3,
+                    MaxRank = 1,
                     ClassId = 3,
                     SkillCategoryId = 9, // Key Passive
                     SkillType = SkillType.Passive
@@ -346,7 +346,7 @@ namespace DiabloBuildTracker.Api.Data.Seed
                 {
                     Id = 329,
                     Name = "Affliction",
-                    MaxRank = 3,
+                    MaxRank = 1,
                     ClassId = 3,
                     SkillCategoryId = 9, // Key Passive
                     SkillType = SkillType.Passive
@@ -355,7 +355,7 @@ namespace DiabloBuildTracker.Api.Data.Seed
                 {
                     Id = 330,
                     Name = "Rathma;s Vigor",
-                    MaxRank = 3,
+                    MaxRank = 1,
                     ClassId = 3,
                     SkillCategoryId = 9, // Key Passive
                     SkillType = SkillType.Passive
@@ -364,7 +364,7 @@ namespace DiabloBuildTracker.Api.Data.Seed
                 {
                     Id = 331,
                     Name = "Shadowblight",
-                    MaxRank = 3,
+                    MaxRank = 1,
                     ClassId = 3,
                     SkillCategoryId = 9, // Key Passive
                     SkillType = SkillType.Passive

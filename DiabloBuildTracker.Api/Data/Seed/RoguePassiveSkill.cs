@@ -4,368 +4,359 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DiabloBuildTracker.Api.Data.Seed
 {
-    public static class BarbarianPassiveSkillSeed
+    public static class RoguePassiveSkillSeed
     {
         public static void Seed(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Skill>().HasData(
                 new Skill
                 {
-                    Id = 25,
-                    Name = "Pressure Point",
+                    Id = 412,
+                    Name = "Target Practice",
                     MaxRank = 3,
-                    ClassId = 1,
-                    SkillCategoryId = 4, // Passive
-                    SkillType = SkillType.Passive 
-                },
-                new Skill
-                {
-                    Id = 26,
-                    Name = "Endless Cry",
-                    MaxRank = 3,
-                    ClassId = 1,
-                    SkillCategoryId = 4, // Passive
-                    SkillType = SkillType.Passive 
-                },
-                new Skill
-                {
-                    Id = 27,
-                    Name = "Warpath",
-                    MaxRank = 3,
-                    ClassId = 1,
-                    SkillCategoryId = 4, // Passive
-                    SkillType = SkillType.Passive 
-                },
-                new Skill
-                {
-                    Id = 28,
-                    Name = "Imposing Presence",
-                    MaxRank = 3,
-                    ClassId = 1,
-                    SkillCategoryId = 4, // Passive
-                    SkillType = SkillType.Passive 
-                },
-                new Skill
-                {
-                    Id = 29,
-                    Name = "Martial Vigor",
-                    MaxRank = 3,
-                    ClassId = 1,
-                    SkillCategoryId = 4, // Passive
-                    SkillType = SkillType.Passive 
-                },
-                new Skill
-                {
-                    Id = 30,
-                    Name = "Outburst",
-                    MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 31,
-                    Name = "Tough As Nails",
+                    Id = 413,
+                    Name = "Stutter Step",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 32,
-                    Name = "Belligerence",
+                    Id = 414,
+                    Name = "Sturdy",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 33,
-                    Name = "Booming Voice",
+                    Id = 415,
+                    Name = "Siphoning Strikes",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 34,
-                    Name = "Raid Leader",
+                    Id = 416,
+                    Name = "Unstable Elixirs",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 35,
-                    Name = "Guttural Yell",
+                    Id = 417,
+                    Name = "Rapid Gambits",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 36,
-                    Name = "Aggressive Resistance",
+                    Id = 418,
+                    Name = "Trick Attacks",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 37,
-                    Name = "Battle Fervor",
+                    Id = 419,
+                    Name = "Balestra",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 38,
-                    Name = "Prolific Fury",
+                    Id = 420,
+                    Name = "Weapon Mastery",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 39,
-                    Name = "Swiftness",
+                    Id = 421,
+                    Name = "Rugged",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 40,
-                    Name = "Quick Impulses",
+                    Id = 422,
+                    Name = "Reactive Defense",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 41,
-                    Name = "No Mercy",
+                    Id = 423,
+                    Name = "Agile",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 42,
-                    Name = "Slaying Strike",
+                    Id = 424,
+                    Name = "Mending Obscurity",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 43,
-                    Name = "Expose Vulnerability",
+                    Id = 425,
+                    Name = "Evasive",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 44,
-                    Name = "Thick Skin",
+                    Id = 426,
+                    Name = "Exploit",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 45,
-                    Name = "Defensive Stance",
+                    Id = 427,
+                    Name = "Malice",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 46,
-                    Name = "Counteroffensive",
+                    Id = 428,
+                    Name = "Frigid Finesse",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 47,
-                    Name = "Hamstring",
+                    Id = 429,
+                    Name = "Chilling Weight",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 48,
-                    Name = "Cut To The Bone",
+                    Id = 430,
+                    Name = "Precision Imbuement",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 49,
-                    Name = "Pit Fighter",
+                    Id = 431,
+                    Name = "Deadly Venom",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 50,
-                    Name = "Irrepressible",
+                    Id = 432,
+                    Name = "Alchemical Advantage",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 51,
-                    Name = "Heavy Handed",
+                    Id = 433,
+                    Name = "Debilitating Toxins",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 52,
-                    Name = "Wallop ",
+                    Id = 434,
+                    Name = "Shadow Crash",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 53,
-                    Name = "Brute Force",
+                    Id = 435,
+                    Name = "Consuming Shadows",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 54,
-                    Name = "Concussion",
+                    Id = 436,
+                    Name = "Trap Mastery",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 55,
-                    Name = "Tempered Fury",
+                    Id = 437,
+                    Name = "Innervation",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 56,
-                    Name = "Furious Impulse",
+                    Id = 438,
+                    Name = "Alchemist's Fortune",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 57,
-                    Name = "Invigorating Fury",
+                    Id = 439,
+                    Name = "Second Wind",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 58,
-                    Name = "Duelist",
+                    Id = 440,
+                    Name = "Aftermath",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 59,
-                    Name = "Heavy Hitter",
+                    Id = 441,
+                    Name = "Unto Dawn",
                     MaxRank = 3,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 4, // Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 60,
-                    Name = "Unconstrained",
-                    MaxRank = 1,
-                    ClassId = 1,
+                    Id = 442,
+                    Name = "Adrenaline Rush",
+                    MaxRank = 3,
+                    ClassId = 4,
+                    SkillCategoryId = 4, // Passive
+                    SkillType = SkillType.Passive
+                },
+                new Skill
+                {
+                    Id = 443,
+                    Name = "Haste",
+                    MaxRank = 3,
+                    ClassId = 4,
+                    SkillCategoryId = 4, // Passive
+                    SkillType = SkillType.Passive
+                },
+                new Skill
+                {
+                    Id = 444,
+                    Name = "Impetus",
+                    MaxRank = 3,
+                    ClassId = 4,
+                    SkillCategoryId = 4, // Passive
+                    SkillType = SkillType.Passive
+                },
+                new Skill
+                {
+                    Id = 445,
+                    Name = "Alchemical Admixture",
+                    MaxRank = 3,
+                    ClassId = 4,
                     SkillCategoryId = 9, // Key Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 61,
-                    Name = "Walking Arsenal",
-                    MaxRank = 1,
-                    ClassId = 1,
+                    Id = 446,
+                    Name = "Close Quarters Combat",
+                    MaxRank = 3,
+                    ClassId = 4,
                     SkillCategoryId = 9, // Key Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 62,
-                    Name = "Unbridled Rage",
+                    Id = 447,
+                    Name = "Exposure",
                     MaxRank = 1,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 9, // Key Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 63,
-                    Name = "Gushing Wounds",
+                    Id = 448,
+                    Name = "Momentum",
                     MaxRank = 1,
-                    ClassId = 1,
+                    ClassId = 4,
                     SkillCategoryId = 9, // Key Passive
                     SkillType = SkillType.Passive
                 },
                 new Skill
                 {
-                    Id = 64,
-                    Name = "Barbed Carapace",
+                    Id = 449,
+                    Name = "Precision",
                     MaxRank = 1,
-                    ClassId = 1,
+                    ClassId = 4,
+                    SkillCategoryId = 9, // Key Passive
+                    SkillType = SkillType.Passive
+                },
+                new Skill
+                {
+                    Id = 450,
+                    Name = "Victimize",
+                    MaxRank = 1,
+                    ClassId = 4,
                     SkillCategoryId = 9, // Key Passive
                     SkillType = SkillType.Passive
                 }

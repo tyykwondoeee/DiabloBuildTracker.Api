@@ -36,7 +36,7 @@ namespace DiabloBuildTracker.Api.Data.Seed
                 new Class
                 {
                     Id = 4,
-                    Name = "Rouge"
+                    Name = "Rogue"
                 }
                 );
 

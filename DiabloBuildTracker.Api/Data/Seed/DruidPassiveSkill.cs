@@ -337,7 +337,7 @@ namespace DiabloBuildTracker.Api.Data.Seed
                 {
                     Id = 195,
                     Name = "Earthen Might",
-                    MaxRank = 3,
+                    MaxRank = 1,
                     ClassId = 2,
                     SkillCategoryId = 9, // Key Passive
                     SkillType = SkillType.Passive
@@ -346,7 +346,7 @@ namespace DiabloBuildTracker.Api.Data.Seed
                 {
                     Id = 196,
                     Name = "Lupine Ferocity",
-                    MaxRank = 3,
+                    MaxRank = 1,
                     ClassId = 2,
                     SkillCategoryId = 9, // Key Passive
                     SkillType = SkillType.Passive
@@ -355,7 +355,7 @@ namespace DiabloBuildTracker.Api.Data.Seed
                 {
                     Id = 197,
                     Name = "Nature's Fury",
-                    MaxRank = 3,
+                    MaxRank = 1,
                     ClassId = 2,
                     SkillCategoryId = 9, // Key Passive
                     SkillType = SkillType.Passive
@@ -364,7 +364,7 @@ namespace DiabloBuildTracker.Api.Data.Seed
                 {
                     Id = 198,
                     Name = "Perfect Storm",
-                    MaxRank = 3,
+                    MaxRank = 1,
                     ClassId = 2,
                     SkillCategoryId = 9, // Key Passive
                     SkillType = SkillType.Passive
@@ -373,7 +373,7 @@ namespace DiabloBuildTracker.Api.Data.Seed
                 {
                     Id = 199,
                     Name = "Ursine Strength",
-                    MaxRank = 3,
+                    MaxRank = 1,
                     ClassId = 2,
                     SkillCategoryId = 9, // Key Passive
                     SkillType = SkillType.Passive
@@ -382,7 +382,7 @@ namespace DiabloBuildTracker.Api.Data.Seed
                 {
                     Id = 200,
                     Name = "One With Nature",
-                    MaxRank = 3,
+                    MaxRank = 1,
                     ClassId = 2,
                     SkillCategoryId = 9, // Key Passive
                     SkillType = SkillType.Passive
