@@ -67,6 +67,10 @@ namespace DiabloBuildTracker.Api.Data
             RogueActiveSkillSeed.Seed(modelBuilder);
             RoguePassiveSkillSeed.Seed(modelBuilder);
             RogueSkillUpgradeSeed.Seed(modelBuilder);
+            // Sorcerer Seeds
+            SorcererActiveSkillSeed.Seed(modelBuilder);
+            SorcererPassiveSkillSeed.Seed(modelBuilder);
+            SorcererSkillUpgradeSeed.Seed(modelBuilder);
         }
     }
 }
