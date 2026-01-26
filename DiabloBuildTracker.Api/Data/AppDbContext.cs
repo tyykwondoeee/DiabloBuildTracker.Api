@@ -59,6 +59,10 @@ namespace DiabloBuildTracker.Api.Data
             DruidActiveSkillSeed.Seed(modelBuilder);
             DruidPassiveSkillSeed.Seed(modelBuilder);
             DruidSkillUpgradeSeed.Seed(modelBuilder);
+            // Necromancer Seeds
+            NecromancerActiveSkillSeed.Seed(modelBuilder);
+            NecromancerPassiveSkillSeed.Seed(modelBuilder);
+            NecromancerSkillUpgradeSeed.Seed(modelBuilder);
         }
     }
 }

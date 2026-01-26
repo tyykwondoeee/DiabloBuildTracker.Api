@@ -18,7 +18,9 @@ namespace DiabloBuildTracker.Api.Data.Seed
                 new SkillCategory { Id = 8, Name = "Ultimate" },
                 new SkillCategory { Id = 9, Name = "Key Passive" },
                 new SkillCategory { Id = 10, Name = "Companion" },
-                new SkillCategory { Id = 11, Name = "Wrath" }
+                new SkillCategory { Id = 11, Name = "Wrath" },
+                new SkillCategory { Id = 12, Name = "Curse" },
+                new SkillCategory { Id = 13, Name = "Corpse & Macabre" }
                 );
         }
     }
