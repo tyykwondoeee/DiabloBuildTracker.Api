@@ -52,7 +52,7 @@ namespace DiabloBuildTracker.Api.Data.Seed
                 new Class
                 {
                     Id = 6,
-                    Name = "Spiritborn"
+                    Name = "Sprirtborn"
                 }
                 );
 
