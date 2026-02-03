@@ -7,11 +7,11 @@ namespace DiabloBuildTracker.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ClassController : ControllerBase
+    public class ClassesController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public ClassController(AppDbContext context)
+        public ClassesController(AppDbContext context)
         {
             _context = context;
         }
