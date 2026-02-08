@@ -56,6 +56,42 @@ A lightweight, user-friendly application for creating, tracking, and managing Di
 
 ---
 
+## Run the React Frontend (VS Code)
+
+1. Start the API:
+   ```bash
+   dotnet run --project DiabloBuildTracker.Api/DiabloBuildTracker.Api.csproj
+   ```
+2. In a second terminal, run the frontend:
+   ```bash
+   cd DiabloBuildTracker.Frontend
+   npm install
+   npm run dev
+   ```
+3. Open `http://localhost:5173` in your browser (or VS Code Simple Browser).
+
+> Note: React frontends run in JavaScript/TypeScript in the browser. If you want to use C++, it should be used in backend services or compiled to WebAssembly.
+
+
+### Troubleshooting (Visual Studio PowerShell)
+
+If cleanup fails with `Access to the path ... is denied` for files like `esbuild.exe` or `rollup...node`, a Node process is still locking files.
+
+1. In `DiabloBuildTracker.Frontend`, run:
+   ```powershell
+   npm run reset
+   ```
+   This script attempts to stop `node.exe` processes on Windows and removes `node_modules` + `package-lock.json`.
+2. Reinstall and run:
+   ```powershell
+   npm install
+   npm run dev
+   ```
+
+If `npm run reset` still fails, close Visual Studio terminals, stop any running dev server, then retry.
+
+---
+
 ## Usage
 
 * Create a new build by selecting a Diablo class
