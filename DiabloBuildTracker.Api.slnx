@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="DiabloBuildTracker.Api/DiabloBuildTracker.Api.csproj" />
+  <Project Path="DiabloBuildTracker.Tests/DiabloBuildTracker.Tests.csproj" />
 </Solution>
